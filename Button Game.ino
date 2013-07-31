@@ -1,3 +1,4 @@
+
 void setup ()
 {
   for (int i = 2; i <=12; i++)
@@ -31,9 +32,12 @@ void loop ()
      }
      else
      {
+      delay (500);
+      digitalWrite(i, LOW); 
       break;
      }
     }
     digitalWrite(i,LOW);
   }
 }
+//try to get the middle/white led lit up

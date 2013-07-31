@@ -22,3 +22,4 @@ void loop ()
     
   }
 }
+//try to get all leds lit up

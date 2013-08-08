@@ -1,0 +1,42 @@
+int d0Pin = 6; //D
+int d1Pin = 5; //C
+int d2Pin = 4; //B
+int d3Pin = 3; //A
+
+int d0Val = 0; 
+int d1Val = 0;
+int d2Val = 0; 
+int d3Val = 0;
+
+void setup()
+{
+  Serial.begin (9600);
+}
+void loop()
+{
+  d0Val= digitalRead(d0Pin);
+  d1Val= digitalRead(d1Pin);
+  d2Val= digitalRead(d2Pin);
+  d3Val= digitalRead(d3Pin);
+  if (d0Val == 1)
+  {
+    Serial.println("4");
+  }
+    if (d1Val== 1)
+  {
+    Serial.println("3");
+  }
+    if (d2Val==1)
+  {
+    Serial.println("2");
+  }
+    if (d3Val==1)
+  {
+    Serial.println("1");
+  }
+  else
+  {
+    Serial.println("0");
+  }
+  delay(5);
+}

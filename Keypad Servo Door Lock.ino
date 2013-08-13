@@ -7,7 +7,6 @@ int correct = 0;
 int ledTrue=13;
 int ledFalse=12;
 boolean locked = false;
-//false=unlocked
 #include <Servo.h>
 Servo greg;
 

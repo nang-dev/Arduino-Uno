@@ -1,7 +1,7 @@
-//PRESS 58B# To unlock
+//PRESS 78A To unlock
 int row[] = {0, 0, 0, 0};
 int column[] = {0, 0, 0, 0};
-int rowPass[] = {0,1,1,1};
+int rowPass[] = {1,0,1,0};
 int colPass[] = {0,1,1,1};
 int correct = 0;
 int ledTrue=13;
@@ -131,3 +131,4 @@ void ReadRows()
   }
   delay(100);
 } 
+
